@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap');
+
+
+body{
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 25px;
+    background:white;
+    color:black;
+}
+
+/*global*/
+
+.text-green{
+    color:#4CB963;
+}
+
+.text-slant{
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+.green__btn{
+    color:#4CB693;
+    border: 2px solid #4CB693;
+    size: 30px;
+}
+
+.green__btn:hover{
+    background:#4CB693;
+    color:white;
+}
+
+.title-underline{
+    width:12rem;
+    height:0.3rem;
+    margin:0 auto;
+    position:relative;
+    border-radius:2rem;
+}
+
+.title-underline-center{
+    position:absolute;
+    height:0.6rem;
+    background:#4CB693;
+    width:50%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 1rem;
+}
+
+.blockquote{
+    border-left:0.5rem solid #4CB693;
+}
+
+
+
+/*navbar*/
+
+.navbar{
+      background: black;
+}
+
+.phone-icon{
+    color:#4CB693;
+    border: 1px solid #4CB693;
+    padding:0.7rem;
+    border-radius:50%;
+}
+
+/*banner*/
+
+.banner-info{
+    min-height:calc(100vh - 165px);
+    background:grey;
+    position: relative;
+}
+
+.banner-info__footer{
+    background:#4CB693;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+
+.banner-img{
+    min-height: calc(100vh - 165px);
+    background:url("img/3.jpeg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:relative;
+}
+
+.banner-img__footer{
+    background:black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height:143px;
+    display: flex;
+    align-items: center;
+}
+
+/*about image*/
+
+
+
+.img-container{
+    position: relative;
+}
+
+.featured-icons{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.featured-icon-left{
+    background:black;
+    padding:0.5rem;
+    display:inline-block;
+    color:white;
+}
+
+.featured-icon-right{
+    background:#4CB693;
+    padding:0.5rem;
+    display:inline-block;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
